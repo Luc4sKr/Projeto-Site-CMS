@@ -9,12 +9,12 @@ namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Repository
 
         public CategoriaRepository(ContextoDatabase context)
         {
-            _context= context;
+            _context = context;
         }
 
         public async Task<IEnumerable<Categoria>> GetAll()
         {
-            throw new NotImplementedException();
+            return _context.Categoria.ToList();
         }
     }
 }

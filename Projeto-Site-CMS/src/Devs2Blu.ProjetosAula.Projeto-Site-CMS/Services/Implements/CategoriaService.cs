@@ -13,9 +13,9 @@ namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Services.Implements
             _repository = repository;
         }
 
-        public Task<IEnumerable<Categoria>> GetAllCategorias()
+        public async Task<IEnumerable<Categoria>> GetAllCategorias()
         {
-            throw new NotImplementedException();
+            return await _repository.GetAll();
         }
     }
 }

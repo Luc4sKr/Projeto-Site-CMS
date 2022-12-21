@@ -13,12 +13,26 @@ namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Repository
 		}
 
 		#region Select
-
 		public async Task<IEnumerable<Conteudo>> GetAll()
 		{
 			return _context.Conteudo.ToList();
 		}
 
+		public async Task<Conteudo> GetOne(int? id)
+		{
+			return await _context.Conteudo.FirstOrDefaultAsync(conteudo => conteudo.Id == id);
+		}
+
+		public async Task<int> SaveConteudo(Conteudo conteudo)
+		{
+			_context.Add(conteudo);
+			return await _context.SaveChangesAsync();
+		}
+
+		public async Task<Conteudo> DetailsConteudo(int? id)
+		{
+			return await _context.Conteudo.FirstOrDefaultAsync(conteudo => conteudo.Id == id);
+		}
 		#endregion
 
 	}
