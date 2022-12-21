@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\img\\icon-barco.png",
+      "PackagePath": "staticwebassets\\img\\icon-barco.png"
+    },
+    {
+      "Id": "C:\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\img\\icon-carro.png",
+      "PackagePath": "staticwebassets\\img\\icon-carro.png"
+    },
+    {
+      "Id": "C:\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\img\\icon-moto.png",
+      "PackagePath": "staticwebassets\\img\\icon-moto.png"
+    },
+    {
+      "Id": "C:\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\img\\logo-turbinada.png",
+      "PackagePath": "staticwebassets\\img\\logo-turbinada.png"
+    },
+    {
       "Id": "C:\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
