@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\Devs2Blu.ProjetosAula.Projeto-Site-CMS.csproj": {}
+    "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\Devs2Blu.ProjetosAula.Projeto-Site-CMS.csproj": {}
   },
   "projects": {
-    "C:\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\Devs2Blu.ProjetosAula.Projeto-Site-CMS.csproj": {
+    "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\Devs2Blu.ProjetosAula.Projeto-Site-CMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\Devs2Blu.ProjetosAula.Projeto-Site-CMS.csproj",
+        "projectUniqueName": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\Devs2Blu.ProjetosAula.Projeto-Site-CMS.csproj",
         "projectName": "Devs2Blu.ProjetosAula.Projeto-Site-CMS",
-        "projectPath": "C:\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\Devs2Blu.ProjetosAula.Projeto-Site-CMS.csproj",
-        "packagesPath": "C:\\Users\\Marcos\\.nuget\\packages\\",
-        "outputPath": "C:\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\obj\\",
+        "projectPath": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\Devs2Blu.ProjetosAula.Projeto-Site-CMS.csproj",
+        "packagesPath": "C:\\Users\\Cora\\.nuget\\packages\\",
+        "outputPath": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Marcos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
