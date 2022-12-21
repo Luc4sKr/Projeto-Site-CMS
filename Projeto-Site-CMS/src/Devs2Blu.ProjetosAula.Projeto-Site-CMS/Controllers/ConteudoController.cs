@@ -1,16 +1,20 @@
+using Devs2Blu.ProjetosAula.Projeto_Site_CMS.Models.Entities;
 using Devs2Blu.ProjetosAula.Projeto_Site_CMS.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Controllers
 {
     public class ConteudoController : Controller
     {
         private readonly IConteudoService _service;
+        private readonly ICategoriaService _serviceCategoria;
 
-        public ConteudoController(IConteudoService service)
+        public ConteudoController(IConteudoService service, ICategoriaService serviceCategoria)
         {
             _service = service;
+            _serviceCategoria = serviceCategoria;
         }
 
         // GET: ConteudoController
@@ -26,23 +30,24 @@ namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Controllers
         }
 
         // GET: ConteudoController/Create
-        public ActionResult Create()
+        public async Task<ActionResult> Create()
         {
+            ViewData["CategoriaId"] = new SelectList(await _serviceCategoria.GetAllCategorias(), "Id", "Id");
             return View();
         }
 
         // POST: ConteudoController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult> Create([Bind("Id,Nome,Descricao,Preco,CategoriaId,IsPublished,IdDeleted,CreateDate")] Conteudo conteudo)
         {
-            try
+            if (ModelState.IsValid)
             {
+                await _service.Save(conteudo);
                 return RedirectToAction(nameof(Index));
-            }
-            catch
+            } else
             {
-                return View();
+                return View(conteudo);
             }
         }
 

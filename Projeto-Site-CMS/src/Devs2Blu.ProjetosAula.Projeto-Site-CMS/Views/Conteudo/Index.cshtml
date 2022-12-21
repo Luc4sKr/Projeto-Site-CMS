@@ -20,6 +20,18 @@
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th scope="col">
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Preco)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.CategoriaId)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            <th scope="col">
                 Buttons
             </th>
         </tr>
@@ -32,6 +44,18 @@
             </th>
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Preco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoriaId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
             </td>
             <td>
                 <a class="btn btn-dark" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
