@@ -32,6 +32,10 @@ namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Models.Entities
 		[Display(Name = "Excluido?")]
 		public bool IsDeleted { get; set; }
 
+		[Column("created_date")]
+		[Display(Name = "Data de Criação")]
+		public DateTime CreatedDate { get; set; }
+
 		public virtual ICollection<Imagem>? Imagem { get; set; }
 	}
 }
