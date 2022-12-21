@@ -4,65 +4,22 @@
     ViewData["Title"] = "Index";
 }
 
-<h1 class="text-center">Index</h1>
+<h1 class="text-center">Veiculos</h1>
 
-<div class="mb-2">
-    <a class="btn btn-primary" asp-action="Create">Create New</a>
-</div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">
-                @Html.DisplayNameFor(model => model.Id)
-            </th>
-            <th scope="col">
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th scope="col">
-                @Html.DisplayNameFor(model => model.Descricao)
-            </th>
-            <th scope="col">
-                @Html.DisplayNameFor(model => model.Preco)
-            </th>
-            <th scope="col">
-                @Html.DisplayNameFor(model => model.CategoriaId)
-            </th>
-            <th scope="col">
-                @Html.DisplayNameFor(model => model.CreatedDate)
-            </th>
-            <th scope="col">
-                Buttons
-            </th>
-        </tr>
-    </thead>
-    <tbody>
 @foreach (var item in Model) {
-        <tr>
-            <th class="">
-                @Html.DisplayFor(modelItem => item.Id)
-            </th>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Preco)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CategoriaId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedDate)
-            </td>
-            <td>
-                <a class="btn btn-dark" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                <a class="btn btn-dark" asp-action="Details" asp-route-id="@item.Id">Details</a>
-                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
+
+
+            <div class="card-list">
+                <a asp-controller="Home" asp-action="Home" class="card" style="width: 18rem;">
+                    <img src="~/img/carro_modelo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Nome)</h5>
+                        <p class="card-text">R$ @Html.DisplayFor(modelItem => item.Preco)</p>
+                        <p class="card-text">@Html.DisplayFor(modelItem => item.Descricao)/p>
+                    </div>
+                </a>
+            </div>
+
 }
-    </tbody>
-</table>
+ 
