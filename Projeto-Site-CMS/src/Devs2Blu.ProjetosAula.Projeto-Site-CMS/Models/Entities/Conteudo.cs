@@ -18,6 +18,11 @@ namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Models.Entities
 		[Display(Name = "Descrição")]
 		public string Descricao { get; set; }
 
+
+		[Column("preco")]
+		[Display(Name = "Preço")]
+		public Double Preco { get; set; }
+
 		[Column("CategoriaId")]
 		[Display(Name = "Categoria")]
 		public int CategoriaId { get; set;}
