@@ -12,7 +12,7 @@ namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Models.Entities
 
 		[Column("ConteudoId")]
 		[Display(Name = "Conteudo")]
-		public string ConteudoId { get; set; }
+		public int ConteudoId { get; set; }
 
 		public virtual Conteudo? Conteudo { get; set; }
 
