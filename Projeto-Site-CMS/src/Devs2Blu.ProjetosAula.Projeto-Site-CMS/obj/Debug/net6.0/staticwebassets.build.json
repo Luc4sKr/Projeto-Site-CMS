@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SzmGMMMyzlPJixvw8xq8Ym2P8xHMOXjDM/6lkFNeKWg=",
+  "Hash": "Y+SRcHaPT/juZyb3LZmVL/HwKqhB2k+E997Lo1sGpio=",
   "Source": "Devs2Blu.ProjetosAula.Projeto-Site-CMS",
   "BasePath": "_content/Devs2Blu.ProjetosAula.Projeto-Site-CMS",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Devs2Blu.ProjetosAula.Projeto-Site-CMS.bundle.scp.css"
     },
     {
-      "Identity": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\css\\site.css",
+      "Identity": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\css\\home.css",
       "SourceId": "Devs2Blu.ProjetosAula.Projeto-Site-CMS",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\",
       "BasePath": "_content/Devs2Blu.ProjetosAula.Projeto-Site-CMS",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/home.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\css\\index.css",
+      "SourceId": "Devs2Blu.ProjetosAula.Projeto-Site-CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\",
+      "BasePath": "_content/Devs2Blu.ProjetosAula.Projeto-Site-CMS",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
       "Identity": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\favicon.ico",

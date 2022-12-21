@@ -14,9 +14,9 @@ namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Controllers
 			_service = service;
 		}
 
-		public async Task<IActionResult> Index()
+		public async Task<IActionResult> Home()
 		{
-			return View(await _service.GetAllConteudos());
+			return View();
 		}
 	}
 }

@@ -5,8 +5,12 @@
       "PackagePath": "staticwebassets\\Devs2Blu.ProjetosAula.Projeto-Site-CMS.bundle.scp.css"
     },
     {
-      "Id": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
       "Id": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\favicon.ico",
