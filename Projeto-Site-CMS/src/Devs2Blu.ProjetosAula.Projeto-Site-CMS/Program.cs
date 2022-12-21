@@ -20,9 +20,11 @@ builder.Services.AddDbContext<ContextoDatabase>
 
 // Repositories
 builder.Services.AddScoped<ConteudoRepository, ConteudoRepository>();
+builder.Services.AddScoped<CategoriaRepository, CategoriaRepository>();
 
 // Services
 builder.Services.AddScoped<IConteudoService, ConteudoService>();
+builder.Services.AddScoped<ICategoriaService, CategoriaService>();
 
 
 var app = builder.Build();
