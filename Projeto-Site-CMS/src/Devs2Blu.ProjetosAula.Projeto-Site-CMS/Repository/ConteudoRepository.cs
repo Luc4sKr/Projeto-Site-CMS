@@ -16,7 +16,7 @@ namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Repository
 
 		public async Task<IEnumerable<Conteudo>> GetAll()
 		{
-			return await _context.Conteudo.ToListAsync();
+			return _context.Conteudo.ToList();
 		}
 
 		#endregion

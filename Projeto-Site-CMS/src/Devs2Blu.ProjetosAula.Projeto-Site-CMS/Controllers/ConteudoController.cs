@@ -1,3 +1,4 @@
+using Devs2Blu.ProjetosAula.Projeto_Site_CMS.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -5,10 +6,17 @@ namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Controllers
 {
     public class ConteudoController : Controller
     {
-        // GET: ConteudoController
-        public ActionResult Index()
+        private readonly IConteudoService _service;
+
+        public ConteudoController(IConteudoService service)
         {
-            return View();
+            _service = service;
+        }
+
+        // GET: ConteudoController
+        public async Task<ActionResult> Index()
+        {
+            return View(await _service.GetAllConteudos());
         }
 
         // GET: ConteudoController/Details/5
