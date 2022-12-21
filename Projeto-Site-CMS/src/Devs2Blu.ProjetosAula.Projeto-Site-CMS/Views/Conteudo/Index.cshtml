@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Devs2Blu.ProjetosAula.Projeto_Site_CMS.Models.Entities.Conteudo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center">Index</h1>
+
+<div class="mb-2">
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th scope="col">
+                Buttons
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th class="">
+                    @Html.DisplayFor(modelItem => item.Id)
+                </th>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    <a class="btn btn-dark" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a class="btn btn-dark" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
