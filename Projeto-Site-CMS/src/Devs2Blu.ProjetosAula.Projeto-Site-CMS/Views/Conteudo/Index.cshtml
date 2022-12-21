@@ -25,21 +25,20 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <th class="">
-                    @Html.DisplayFor(modelItem => item.Id)
-                </th>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nome)
-                </td>
-                <td>
-                    <a class="btn btn-dark" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                    <a class="btn btn-dark" asp-action="Details" asp-route-id="@item.Id">Details</a>
-                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                </td>
-            </tr>
-        }
+@foreach (var item in Model) {
+        <tr>
+            <th class="">
+                @Html.DisplayFor(modelItem => item.Id)
+            </th>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                <a class="btn btn-dark" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                <a class="btn btn-dark" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
     </tbody>
 </table>
