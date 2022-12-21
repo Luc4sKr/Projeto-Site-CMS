@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\img\\Barco1.jpg",
+      "PackagePath": "staticwebassets\\img\\Barco1.jpg"
+    },
+    {
+      "Id": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\img\\Carro3.png",
+      "PackagePath": "staticwebassets\\img\\Carro3.png"
+    },
+    {
+      "Id": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\img\\Moto2.jpg",
+      "PackagePath": "staticwebassets\\img\\Moto2.jpg"
+    },
+    {
       "Id": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\img\\carro_modelo.png",
       "PackagePath": "staticwebassets\\img\\carro_modelo.png"
     },

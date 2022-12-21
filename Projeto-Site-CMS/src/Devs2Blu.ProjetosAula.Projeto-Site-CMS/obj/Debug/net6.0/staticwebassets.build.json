@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UAUc0lF5wH72SSfmz0yMLpgHMj6+zX0CdJD6g6yhMvA=",
+  "Hash": "SzmGMMMyzlPJixvw8xq8Ym2P8xHMOXjDM/6lkFNeKWg=",
   "Source": "Devs2Blu.ProjetosAula.Projeto-Site-CMS",
   "BasePath": "_content/Devs2Blu.ProjetosAula.Projeto-Site-CMS",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\img\\Barco1.jpg",
+      "SourceId": "Devs2Blu.ProjetosAula.Projeto-Site-CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\",
+      "BasePath": "_content/Devs2Blu.ProjetosAula.Projeto-Site-CMS",
+      "RelativePath": "img/Barco1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Barco1.jpg"
+    },
+    {
       "Identity": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\img\\carro_modelo.png",
       "SourceId": "Devs2Blu.ProjetosAula.Projeto-Site-CMS",
       "SourceType": "Discovered",
@@ -100,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\carro_modelo.png"
+    },
+    {
+      "Identity": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\img\\Carro3.png",
+      "SourceId": "Devs2Blu.ProjetosAula.Projeto-Site-CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\",
+      "BasePath": "_content/Devs2Blu.ProjetosAula.Projeto-Site-CMS",
+      "RelativePath": "img/Carro3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Carro3.png"
     },
     {
       "Identity": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\img\\icon-barco.png",
@@ -168,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logo-turbinada.png"
+    },
+    {
+      "Identity": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\img\\Moto2.jpg",
+      "SourceId": "Devs2Blu.ProjetosAula.Projeto-Site-CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\",
+      "BasePath": "_content/Devs2Blu.ProjetosAula.Projeto-Site-CMS",
+      "RelativePath": "img/Moto2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Moto2.jpg"
     },
     {
       "Identity": "E:\\TrabalhosDevs\\TrabalhoGrupoMVC\\Projeto-Site-CMS\\Projeto-Site-CMS\\src\\Devs2Blu.ProjetosAula.Projeto-Site-CMS\\wwwroot\\js\\site.js",

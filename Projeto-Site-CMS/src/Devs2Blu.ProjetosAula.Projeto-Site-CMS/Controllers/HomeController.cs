@@ -18,7 +18,7 @@ namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Controllers
 			return View();
 		}
 
-		public IActionResult Privacy()
+		public IActionResult Home()
 		{
 			return View();
 		}
