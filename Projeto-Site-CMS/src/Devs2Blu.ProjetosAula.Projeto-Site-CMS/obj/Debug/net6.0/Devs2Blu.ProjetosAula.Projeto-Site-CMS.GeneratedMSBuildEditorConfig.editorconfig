@@ -9,37 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Devs2Blu.ProjetosAula.Projeto_Site_CMS
 build_property.RootNamespace = Devs2Blu.ProjetosAula.Projeto_Site_CMS
-build_property.ProjectDir = C:\Projeto-Site-CMS\Projeto-Site-CMS\src\Devs2Blu.ProjetosAula.Projeto-Site-CMS\
+build_property.ProjectDir = E:\TrabalhosDevs\TrabalhoGrupoMVC\Projeto-Site-CMS\Projeto-Site-CMS\src\Devs2Blu.ProjetosAula.Projeto-Site-CMS\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Projeto-Site-CMS\Projeto-Site-CMS\src\Devs2Blu.ProjetosAula.Projeto-Site-CMS
+build_property.MSBuildProjectDirectory = E:\TrabalhosDevs\TrabalhoGrupoMVC\Projeto-Site-CMS\Projeto-Site-CMS\src\Devs2Blu.ProjetosAula.Projeto-Site-CMS
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/Home/Index.cshtml]
+[E:/TrabalhosDevs/TrabalhoGrupoMVC/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/TrabalhosDevs/TrabalhoGrupoMVC/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/Home/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/TrabalhosDevs/TrabalhoGrupoMVC/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/Home/Privacy.cshtml]
+[E:/TrabalhosDevs/TrabalhoGrupoMVC/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/Shared/Error.cshtml]
+[E:/TrabalhosDevs/TrabalhoGrupoMVC/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/TrabalhosDevs/TrabalhoGrupoMVC/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/_ViewImports.cshtml]
+[E:/TrabalhosDevs/TrabalhoGrupoMVC/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/_ViewStart.cshtml]
+[E:/TrabalhosDevs/TrabalhoGrupoMVC/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/Shared/_Layout.cshtml]
+[E:/TrabalhosDevs/TrabalhoGrupoMVC/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/Shared/_BasicLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYXNpY0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-wf8d8nc7yt
+
+[E:/TrabalhosDevs/TrabalhoGrupoMVC/Projeto-Site-CMS/Projeto-Site-CMS/src/Devs2Blu.ProjetosAula.Projeto-Site-CMS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lexu1bosw5
