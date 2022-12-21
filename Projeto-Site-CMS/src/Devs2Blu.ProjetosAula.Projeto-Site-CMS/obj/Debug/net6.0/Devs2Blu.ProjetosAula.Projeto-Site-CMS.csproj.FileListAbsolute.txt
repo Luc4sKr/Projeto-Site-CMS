@@ -176,3 +176,4 @@ E:\TrabalhosDevs\TrabalhoGrupoMVC\Projeto-Site-CMS\Projeto-Site-CMS\src\Devs2Blu
 E:\TrabalhosDevs\TrabalhoGrupoMVC\Projeto-Site-CMS\Projeto-Site-CMS\src\Devs2Blu.ProjetosAula.Projeto-Site-CMS\obj\Debug\net6.0\Devs2Blu.ProjetosAula.Projeto-Site-CMS.pdb
 E:\TrabalhosDevs\TrabalhoGrupoMVC\Projeto-Site-CMS\Projeto-Site-CMS\src\Devs2Blu.ProjetosAula.Projeto-Site-CMS\obj\Debug\net6.0\Devs2Blu.ProjetosAula.Projeto-Site-CMS.genruntimeconfig.cache
 E:\TrabalhosDevs\TrabalhoGrupoMVC\Projeto-Site-CMS\Projeto-Site-CMS\src\Devs2Blu.ProjetosAula.Projeto-Site-CMS\obj\Debug\net6.0\ref\Devs2Blu.ProjetosAula.Projeto-Site-CMS.dll
+E:\TrabalhosDevs\TrabalhoGrupoMVC\Projeto-Site-CMS\Projeto-Site-CMS\src\Devs2Blu.ProjetosAula.Projeto-Site-CMS\obj\Debug\net6.0\scopedcss\Views\Shared\_BasicLayout.cshtml.rz.scp.css

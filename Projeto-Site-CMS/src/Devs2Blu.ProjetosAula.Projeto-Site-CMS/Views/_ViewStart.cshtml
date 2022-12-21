@@ -1,3 +1,13 @@
 ﻿@{
-    Layout = "_Layout";
+    var controller = this.ViewContext.RouteData.Values["controller"].ToString;
+    string cLayout = "";
+
+    Console.WriteLine(controller);
+
+    if (controller.Target.ToString() == "Home")
+        cLayout = "~/Views/Shared/_BasicLayout.cshtml";
+    else
+        cLayout = "~/Views/Shared/_Layout.cshtml";
+
+    Layout = cLayout;
 }
