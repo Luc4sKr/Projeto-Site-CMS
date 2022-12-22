@@ -12,7 +12,7 @@ builder.Services.AddControllersWithViews();
 // Context DB SQL Server
 // ATUALIZAR STRING COM SEU DB
 builder.Services.AddDbContext<ContextoDatabase>
-	(options => options.UseSqlServer("Server=DESKTOP-UME51NM\\SQLMATEUS; Database=ListaVeiculos; User Id=sa;Password=zuky; TrustServerCertificate=True;"));
+	(options => options.UseSqlServer("Server=CORA-PC\\SQLEXPRESS; Database=ListaVeiculos; User Id=sa;Password=admin; TrustServerCertificate=True;"));
 
 /*
  * Dependency Injection
