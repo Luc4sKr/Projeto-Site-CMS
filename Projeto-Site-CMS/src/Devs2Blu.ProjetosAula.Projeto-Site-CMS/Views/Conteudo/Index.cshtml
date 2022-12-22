@@ -1,10 +1,6 @@
 ﻿@model IEnumerable<Devs2Blu.ProjetosAula.Projeto_Site_CMS.Models.Entities.Conteudo>
 
-@{
-    ViewData["Title"] = "Index";
-}
-
-<h1 class="text-center">Index</h1>
+<h1 class="text-center">Veiculos</h1>
 
 @foreach (var item in Model) {
 
@@ -13,6 +9,7 @@
              <img src="~/img/carro_modelo.png" class="card-img-top" alt="...">
              <div class="card-body">
                  <h5 class="card-title">@Html.DisplayFor(modelItem => item.Nome)</h5>
+                 <p class="card-text">R$ @Html.DisplayFor(modelItem => item.Preco)</p>
              </div>
          </a>
      </div>
