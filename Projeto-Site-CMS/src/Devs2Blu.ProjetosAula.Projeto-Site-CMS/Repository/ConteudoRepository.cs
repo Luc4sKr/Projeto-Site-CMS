@@ -31,8 +31,10 @@ namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Repository
 
 		public async Task<Conteudo> DetailsConteudo(int? id)
 		{
-			return await _context.Conteudo.FirstOrDefaultAsync(conteudo => conteudo.Id == id);
-		}
+            return await _context.Conteudo
+                .Include(conteudo => conteudo.Categoria)
+                .FirstOrDefaultAsync(conteudo => conteudo.Id == id);
+        }
 		#endregion
 
 	}
