@@ -3,6 +3,7 @@ using Devs2Blu.ProjetosAula.Projeto_Site_CMS.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Controllers
 {
@@ -24,9 +25,12 @@ namespace Devs2Blu.ProjetosAula.Projeto_Site_CMS.Controllers
         }
 
         // GET: ConteudoController/Details/5
-        public ActionResult Details(int id)
+        public async Task<IActionResult> Details(int id)
         {
-            return View();
+            var conteudo = await _service.Details(id);
+
+
+            return View(conteudo);
         }
 
         // GET: ConteudoController/Create
