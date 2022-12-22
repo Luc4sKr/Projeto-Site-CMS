@@ -11,7 +11,7 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(241, 241, 241);
+  background-color: rgb(228, 228, 228);
 }
 
 .header-logo {

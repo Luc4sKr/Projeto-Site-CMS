@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Devs2Blu.ProjetosAula.ProjetoSiteCMS</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> 
+    <link rel="stylesheet" href="details.css">
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -43,11 +44,25 @@
             <img src="/img/icon-moto.png" alt="icone_moto" />
           </a>
         </div>
-      </div> 
-      <div class="divseparation"> 
+      </div>
+      <div class="divseparation">
         <p></p>
       </div>
     </header>
+
+    <main>
+      <div class="conteudo">
+        <img class="imagem" src="img/carro_modelo.png" alt="foto do carro" />
+        <div class="textos">
+          <p class="nome">Exemplo Carro</p>
+          <p class="preco">R$5000.00</p>
+          <P class="descricao-titulo">Descrição</P>
+          <p class="descricao">Bla bla bla bla esse carro é bom</p>
+          <p class="categoria">Categoria</p>
+          <p class="tipo">Carro</p>
+        </div>
+      </div>
+    </main>
 
     <!-- <div class="container">
       <main role="main" class="pb-3">@RenderBody()</main>

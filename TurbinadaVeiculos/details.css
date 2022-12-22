@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200vh;
+    width: 200vh;
+    padding-top: 5rem;
+}
+.imagem{
+    width: 1000px;
+    min-height: 690px;
+    max-height: 690px;
+}
+
+.nome{
+    text-align: center;
+    font-size: 27px;
+
+}
+.descricao-titulo{
+    text-align: center;
+    font-size: 24px;
+}
+.categoria{
+    text-align: center;
+    font-size: 21px;
+}
+.textos p{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
